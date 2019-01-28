@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'INIT Docs', // Title for your website.
-  tagline: 'Documentation for INIT project',
+  title: 'INIT', // Title for your website.
+  tagline: 'The Boostrap 4 quickstarter.',
   url: 'https://github.com/ekrz/INIT-docs', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -30,15 +30,15 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'init-docs',
+  organizationName: 'granite',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'get-started', label: 'Docs'},
+    {doc: 'getting-started/quick-start', label: 'Getting Started'},
     {blog: true, label: 'Blog'},
   ],
 
@@ -46,14 +46,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo-init.svg',
+  headerIcon: 'img/logo-init-bare.svg',
   footerIcon: 'img/logo-init.svg',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#191919',
-    secondaryColor: '#FF1C48',
+    primaryColor: '#FF1744',
+    secondaryColor: '#191919',
   },
 
   /* Custom fonts for website */
@@ -75,11 +75,11 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'atom-one-dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+//   scripts: ['https://buttons.github.io/buttons.js'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',

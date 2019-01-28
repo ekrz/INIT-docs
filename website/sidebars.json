@@ -1,6 +1,6 @@
 {
   "docs": {
-    "INIT Docs": ["get-started"],
+    "Getting Started": ["getting-started/quick-start"],
     "Advanced": ["architecture","advanced"]
   }
 }
