@@ -25,9 +25,7 @@ const siteConfig = {
   tagline: 'The Boostrap 4 quickstarter.',
   url: 'https://github.com/ekrz/INIT-docs', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+
 
   // Used for publishing and more
   projectName: 'init-docs',
@@ -39,7 +37,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'getting-started/quick-start', label: 'Getting Started'},
-    {blog: true, label: 'Blog'},
+    {blog: false, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
@@ -56,19 +54,6 @@ const siteConfig = {
     secondaryColor: '#191919',
   },
 
-  /* Custom fonts for website */
-  /*
-  fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
-  },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} INIT`,
@@ -77,9 +62,6 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: 'atom-one-dark',
   },
-
-  // Add custom scripts here that would be placed in <script> tags.
-//   scripts: ['https://buttons.github.io/buttons.js'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -95,10 +77,6 @@ const siteConfig = {
 
   // Show documentation's last update time.
   // enableUpdateTime: true,
-
-  // You may provide arbitrary config keys to be used as needed by your
-  // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
 };
 
 module.exports = siteConfig;

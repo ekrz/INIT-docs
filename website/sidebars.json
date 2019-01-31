@@ -1,6 +1,19 @@
 {
-  "docs": {
-    "Getting Started": ["getting-started/quick-start"],
-    "Advanced": ["architecture","advanced"]
-  }
+	"docs": {
+        "Getting Started": [
+            "getting-started/quick-start"
+        ],
+		"Basics": [
+            "basics/basics-concept",
+            "basics/basics-linting",
+            "basics/basics-commands"
+        ],
+		"Architecture": [
+			"architecture/architecture-introduction",
+			"architecture/architecture-sass",
+			"architecture/architecture-nunjucks",
+			"architecture/architecture-javascript",
+            "architecture/architecture-assets"
+        ]
+	}
 }

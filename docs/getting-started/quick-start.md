@@ -6,7 +6,7 @@ sidebar_label: Quick Start
 
 This section will guide you through the basic installation of node, npm & gulp on your machine.
 
-If you already used ***INIT***, or have your machine alreadt set up, you can skip this section and directly go to [advanced](../advanced.md).
+If you already used ***INIT***, or have your machine alreadt set up, you can skip this section and directly go to [the concept of INIT](../basics/concept.md).
 
 ## Install node and npm
 
