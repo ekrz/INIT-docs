@@ -4,9 +4,13 @@
             "getting-started/quick-start"
         ],
 		"Basics": [
-            "basics/basics-concept",
+            "basics/basics-manifesto",
             "basics/basics-linting",
+            "basics/basics-git",
             "basics/basics-commands"
+        ],
+		"Advanced": [
+            "advanced/advanced-sass-linting"
         ],
 		"Architecture": [
 			"architecture/architecture-introduction",
