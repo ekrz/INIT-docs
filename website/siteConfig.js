@@ -37,7 +37,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'getting-started/quick-start', label: 'Getting Started'},
-    {blog: false, label: 'Blog'},
+    {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
@@ -54,7 +54,6 @@ const siteConfig = {
     secondaryColor: '#191919',
   },
 
-
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} INIT`,
 
@@ -69,14 +68,15 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+//   ogImage: 'img/docusaurus.png',
+//   twitterImage: 'img/docusaurus.png',
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
 
   // Show documentation's last update time.
   // enableUpdateTime: true,
+  disableHeaderTitle:true,
 };
 
 module.exports = siteConfig;
