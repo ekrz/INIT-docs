@@ -35,6 +35,7 @@ const siteConfig = {
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
+  editUrl: 'https://github.com/ekrz/INIT-docs/tree/master/docs/',
   headerLinks: [
     {doc: 'getting-started/quick-start', label: 'Getting Started'},
     {blog: true, label: 'Blog'},
