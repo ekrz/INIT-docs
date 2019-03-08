@@ -9,15 +9,17 @@
             "basics/basics-git",
             "basics/basics-commands"
         ],
-		"Advanced": [
-            "advanced/advanced-sass-linting"
-        ],
 		"Architecture": [
 			"architecture/architecture-introduction",
 			"architecture/architecture-sass",
 			"architecture/architecture-nunjucks",
 			"architecture/architecture-javascript",
             "architecture/architecture-assets"
+        ],
+        "Advanced": [
+            "advanced/advanced-package-manager",
+            "advanced/advanced-config-json",
+            "advanced/advanced-sass-linting"
         ]
 	}
 }

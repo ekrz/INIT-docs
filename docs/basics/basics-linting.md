@@ -37,4 +37,4 @@ Styling is not exempt of a certain need of maintanability, [Michael Trythall](ht
 
 ## How INIT helps linting
 
-**INIT** was build with the idea of maintainability and reusability. It uses a strict linting set of rules you can discover [here](commands.md) for Sass and Javascript.
+**INIT** was build with the idea of maintainability and reusability. It uses a strict linting set of rules you can discover [here](basics-commands.md) for Sass and Javascript.
