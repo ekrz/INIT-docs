@@ -88,21 +88,21 @@ Always keep in mind optimisation and watch the size of your images. While INIT h
 #### scripts
 
 Scripts contains your custom javascript files. There will be set your carousel activations, equalize height, plugin calls, etc.
-/
-/
+\
+\
 It supports JQuery and has already a few handy functions ready-to-use to ease and kickstart your development.
-/
-/
+\
+\
 If you want to read more about this, go to the [Javascript section](architecture-javascript.md) of the documentation.
 
 #### scss
 
 All the styling of your project must be contained under this folder.
-/
-/
+\
+\
 This uses Sass and a couple of handy post-processing functions by default. By default, it calls the core of [Boostrap 4](https://getbootstrap.com/).
-/
-/
+\
+\
 To know more about the styles under INIT, go on the [Sass section](architecture-sass.md) of the documentation.
 
 #### views
