@@ -8,14 +8,12 @@ sidebar_label: Commands
 
 
 1. gulp (default)
-1. gulp (build)
-1. gulp nunjucks
-1. gulp assets
-1. gulp images
-1. gulp fonts
-1. gulp fontello
-1. gulp sass
-1. gulp sass-lint
-1. gulp scripts
-1. gulp scripts-import
-1. gulp eslint
+1. gulp prod
+
+## `gulp`
+
+Launches the default set of task with compilation of Sass, local server, hot reload, etc
+
+## `gulp prod`
+
+Will run the default tasks plus all the extras like image optimisation, compressing files, concatenation of JS, font optimisation, ...
