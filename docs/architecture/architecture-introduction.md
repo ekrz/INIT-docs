@@ -14,10 +14,7 @@ root
 │   └── sftp.json
 ├── gulp
 │   ├── tasks
-│   │   ├── base
-│   │   ├── build
-│   │   └── default
-│   └── path.js
+│   └── paths.js
 ├── src
 │   ├── data
 │   ├── favicon
