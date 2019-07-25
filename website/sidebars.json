@@ -18,6 +18,7 @@
         ],
         "Advanced": [
             "advanced/advanced-gulp",
+            "advanced/advanced-netlify",
             "advanced/advanced-package-manager",
             "advanced/advanced-config-json",
             "advanced/advanced-sass-linting"
