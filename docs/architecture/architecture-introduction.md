@@ -30,19 +30,6 @@ root
 ```
 ## In detail
 
-### .vscode
-
-This folder contains some precious configuration files that should run automatically with VScode and may be compatible with others IDE. You are free to edit these to match your work environment.
-
-#### .csscomb.json
-
-Contains the rules set for CSS Comb so your code matches others. 
-Works with [CSScomb on marketplace](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-csscomb)
-
-#### sftp.json
-
-Contains the basic structure of a sftp connection. Works with [sftp on marketpplace](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp)
-
 ### gulp
 
 The core of INIT whereas all the tasks are defined. It contains three subfolders (base, build and default) and a path.js file where the directories input and output are set up.
