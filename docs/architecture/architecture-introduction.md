@@ -9,9 +9,6 @@ In this section you will find clarification on how the files are organised under
 
 ```bash
 root
-├── .vscode
-│   ├── .csscomb.json
-│   └── sftp.json
 ├── gulp
 │   ├── tasks
 │   └── paths.js
