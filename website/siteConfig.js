@@ -9,7 +9,7 @@
 // site configuration options.
 
 // List of projects/orgs using your project for the users page.
-const users = [
+// const users = [
 //   {
 //     caption: 'User1',
 //     // You will need to prepend the image path with your baseUrl
@@ -18,11 +18,11 @@ const users = [
 //     infoLink: 'https://www.facebook.com',
 //     pinned: true,
 //   },
-];
+// ];
 
 const siteConfig = {
   title: 'INIT', // Title for your website.
-  tagline: 'The Boostrap 4 quickstarter.',
+  tagline: 'Granite Digital\'s front-end kickstarter.',
   url: 'https://github.com/ekrz/INIT-docs', // Your website URL
   baseUrl: '/', // Base URL for your project */
 
@@ -38,11 +38,11 @@ const siteConfig = {
   editUrl: 'https://github.com/ekrz/INIT-docs/tree/master/docs/',
   headerLinks: [
     {doc: 'getting-started/quick-start', label: 'Getting Started'},
-    {blog: true, label: 'Blog'},
+    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
-  users,
+  // users,
 
   /* path to images for header/footer */
   headerIcon: 'img/logo-init-bare.svg',

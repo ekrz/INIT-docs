@@ -1,0 +1,13 @@
+.projectLogo {
+    display: block;
+}
+.wrapperito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapperito span {
+    font-size: 29px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
