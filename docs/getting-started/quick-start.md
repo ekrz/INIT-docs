@@ -40,7 +40,7 @@ gulp --version
 Once you have node, npm and gulp installed on your machine, you can finally clone the latest version of ***INIT*** and run in.
 
 ```sh
-git clone https://github.com/ekrz/INIT.git
+git clone git@bitbucket.org:granitedigital-bitbucket/init.git
 ```
 
 ## Install INIT & its dependencies
